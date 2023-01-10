@@ -1,0 +1,40 @@
+<div class="content-container">
+    <div class="content2-container">
+        <div class="logo-container">
+            <span class="circle-image">
+                <img src="assets/images/moderation-kitchen-logo.png">
+            </span>
+        </div>
+        <div class="text-container">
+            <h2>Moderation Kitchen</h2>
+            <p>Moderation kitchen consists of a web application built using the Angular framework, and a web API built using ASP.NET Core. 
+                These are both hosted in Azure. <br>
+                The web API is responsible for storing and retrieving recipe data from a persistent store.
+                <br> Persistence is implemented using simple JSON files as this was a easier, hassle free way of storing this data.
+                <br> The number of recipes is expected to be relatively low so performance was not a concern for this application.</p>
+        </div>
+    </div>
+    <div class="content2-container">
+        <div class="image-container" (click)="openImageDialog()">
+            <img src="assets/images/moderation-kitchen-home-page.png">
+        </div>
+        <div class="link-container">
+            <div>
+                <h4>Website design</h4>
+                <p>I initially designed the user interface for this website using Sketch.<br>
+                Here's a link to the design from which the website was implemented.</p>
+                <a href="assets/documents/Moderation Kitchen Sketch.pdf" target="_blank">Moderation Kitchen Sketch design October 2022</a>
+            </div>
+            <div class="website-container">
+                <h4>GitHub repositories</h4>
+                <a href="https://github.com/felicity-craft/moderation-kitchen-api" target="_blank">Back end API</a>
+                <a href="https://github.com/felicity-craft/moderation-kitchen-app" target="_blank">Front end app</a>
+            </div>
+            <div class="website-container">
+                <h4>Website links</h4>
+                <a href="https://polite-sky-026e23b1e.2.azurestaticapps.net/" target="_blank">Moderation Kitchen as a user</a>
+                <a href="https://polite-sky-026e23b1e.2.azurestaticapps.net/admin/login" target="_blank">Moderation Kitchen as an administrator</a>
+            </div>
+        </div>
+    </div>
+</div>

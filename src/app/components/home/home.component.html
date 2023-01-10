@@ -1,0 +1,20 @@
+<div class="container">
+  <mat-card class="card-content">
+    <div routerLink="/moderation-kitchen">
+      <span class="circle-image">
+        <img src="assets/images/moderation-kitchen-logo.png" />
+      </span>
+      <p>Moderation Kitchen <br />Baking blog</p>
+      <button mat-raised-button>Read more</button>
+    </div>
+  </mat-card>
+  <mat-card class="card-content">
+    <div (click)="onProjectSelected()">
+      <span class="circle-image">
+        <img src="assets/images/isaac-brown-photography.png" />
+      </span>
+      <p>Isaac Brown Photography <br />Coming soon</p>
+      <button mat-raised-button disabled>Read more</button>
+    </div>
+  </mat-card>
+</div>

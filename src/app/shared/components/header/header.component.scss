@@ -1,0 +1,85 @@
+@use "sass:math";
+@import "../../../../breakpoints.scss";
+
+.header-container {
+  width: 100%;
+  padding: 16px 0px;
+  background: rgb(228, 239, 234);
+  background: linear-gradient(
+    90deg,
+    rgba(228, 239, 234, 1) 0%,
+    rgba(197, 219, 208, 1) 100%
+  );
+}
+
+.header-content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px auto;
+
+  @include media("<s") {
+    width: 100%;
+    padding: 12px;
+  }
+  @include media(">=s") {
+    width: 540px;
+  }
+  @include media(">=m") {
+    width: 720px;
+  }
+  @include media(">=l") {
+    width: 960px;
+  }
+  @include media(">=xl") {
+    width: 1140px;
+  }
+  @include media(">xxl") {
+    width: 1320px;
+  }
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-button-container {
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.menu-button {
+  text-transform: uppercase;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: Moontime, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 70px;
+  margin-bottom: 10px;
+  letter-spacing: 0.06em;
+}
+
+h2 {
+  letter-spacing: 0.1em;
+  font-weight: 200;
+  font-size: 20px;
+  margin-top: 0px;
+}
