@@ -31,7 +31,9 @@
 
 .detail-container {
     display: flex;
-    gap: 50px;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
 }
 
 p {
