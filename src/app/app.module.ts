@@ -8,6 +8,7 @@ import { SharedModule } from './shared/shared.module';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { ModerationKitchenComponent } from './components/moderation-kitchen/moderation-kitchen.component';
+import { IsaacBrownPhotographyComponent } from './components/isaac-brown-photography/isaac-brown-photography.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { ModerationKitchenComponent } from './components/moderation-kitchen/mode
     HomeComponent,
     AboutComponent,
     ModerationKitchenComponent,
+    IsaacBrownPhotographyComponent,
   ],
   imports: [
     BrowserModule,
