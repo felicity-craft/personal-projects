@@ -9,13 +9,16 @@ import { OpenImageComponent } from 'src/app/shared/components/open-image/open-im
 })
 export class IsaacBrownPhotographyComponent {
 
+  public src: string = 'assets/images/Isaac-Brown-Photography-Home.png';
+
   constructor(
     public dialog: MatDialog,
   ) {}
 
   openImageDialog() {
     this.dialog.open(OpenImageComponent, {
-      autoFocus: false
+      autoFocus: false,
+      data: {src: this.src}
     });
   }
 }

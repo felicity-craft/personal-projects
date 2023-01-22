@@ -9,13 +9,16 @@ import { OpenImageComponent } from 'src/app/shared/components/open-image/open-im
 })
 export class ModerationKitchenComponent {
 
+  public src: string = 'assets/images/moderation-kitchen-home-page.png';
+
   constructor(
     public dialog: MatDialog,
   ) {}
 
   openImageDialog() {
     this.dialog.open(OpenImageComponent, {
-      autoFocus: false
+      autoFocus: false,
+      data: {src: this.src}
     });
   }
 }

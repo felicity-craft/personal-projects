@@ -10,15 +10,18 @@
             <p>
                 Isaac Brown Photography is a website for a photographer. It consists of a web application which shows available
                 prints, these prints can be added to, or removed from a cart, and items in the cart can be purchased.
+                <br>
+                The web application is implemented using Angular.
+                <br>
+                Print related data is stored in a JSON file which is served by the web server which hosts the application.
+                <br>
+                Cart related data is stored in the browser's local storage.
             </p>
-            <p>The web application is implemented using Angular.</p>
-            <p>Print related data is stored in a JSON file which is served by the web server which hosts the application.</p>
-            <p>Cart related data is stored in the browser's local storage.</p>
         </div>
     </div>
     <div class="content2-container">
         <div class="image-container" >
-            <img src="assets/images/Isaac-Brown-Photography-Home.png" (click)="openImageDialog()">
+            <img [src]="src" (click)="openImageDialog()">
         </div>
         <div class="link-container">
             <div>
