@@ -9,6 +9,9 @@
       text-align: left;
       gap: 20px;
       align-items: center;
+      &.xs {
+        flex-direction: column;
+      }
   }
   
   :host {
@@ -53,16 +56,14 @@
     flex-direction: column;
   }
   
-  .website-container a {
-   padding-bottom: 10px;
-  }
-  
   .link-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
   
-  
+  a:hover {
+    color: #C5DBD0;
+  }
   
   

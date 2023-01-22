@@ -13,18 +13,35 @@
     src: url(assets/fonts/moontime-font/moontime-regular-webfont.woff);
 }
 
+//Tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Rubik, "Helvetica Neue", sans-serif; min-height: 100%;}
 
 
 a {
     color: black;
-}
-
-a:hover {
-    color: #C5DBD0;
+    text-decoration: underline;
+    padding: 5px 0px,;
 }
 
 a:visited {
     color: black;
+}
+
+h4 {
+    font-weight: 500;
+    padding: 5px 0px;
+}
+
+p {
+    padding: 5px 0px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 300px;
 }
