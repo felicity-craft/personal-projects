@@ -37,8 +37,8 @@
 
 .image-container {
   display: flex;
-  width: 424px;
-  height: 311px;
+  max-width: 424px;
+  max-height: 311px;
   padding-right: 20px;
 }
 
