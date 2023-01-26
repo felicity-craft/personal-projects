@@ -14,6 +14,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 0px auto;
+  gap: 20px;
 }
 
 .logo-container{
@@ -30,9 +31,6 @@
   gap: 16px;
 }
 
-.menu-button {
-  text-transform: uppercase;
-}
 
 a {
   color: black;
